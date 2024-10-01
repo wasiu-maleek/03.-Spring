@@ -39,18 +39,22 @@ a:hover {
 }
 
 .inner-container {
-  max-width: 110rem;
+  max-width: 96rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15rem;
   margin: 15rem 2rem;
 }
 
 .main-inner {
   max-width: 96rem;
   margin: 0 2rem;
+}
+
+.main-inner {
+  padding-left: 4rem;
+  gap: 4rem;
 }
 
 .header {
@@ -94,6 +98,10 @@ a:hover {
   height: auto;
   align-self: center;
   justify-self: start;
+}
+
+.hero-img {
+  justify-self: end;
 }
 
 .section-img {

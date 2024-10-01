@@ -14,7 +14,6 @@ h2 {
   font-size: 4.8rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  max-width: 90%;
 }
 
 .subheading-1 {
@@ -23,12 +22,16 @@ h2 {
   line-height: 1.5;
 }
 
+.main-inner .subheading-1 {
+  width: 80%;
+}
+
 .hero-btn {
   margin-bottom: 4.8rem;
 }
 
 .hero-stat {
-  width: 72%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -85,10 +88,6 @@ h2,
   padding-bottom: 0;
 }
 
-.colored-section {
-  background-color: #3f87fe;
-}
-
 .learn-more:link {
   background-color: #fff;
   font-weight: 600;
@@ -107,23 +106,65 @@ h2,
 
 .colored-section {
   border-radius: 2.4rem;
-  max-width: 110rem;
+  background-color: #3f87fe;
+  padding-left: 0;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 0;
 }
 
 .colored-section-txt {
-  margin: 2.4rem 0 2.4rem 5rem;
+  margin: 4rem 0 4rem 4rem;
 }
 
 h3 {
   font-size: 3.2rem;
   color: #fff;
-  margin-bottom: 5.6rem;
+  margin-bottom: 4rem;
   line-height: 1.2;
 }
 
 .colored-section-img {
   width: 70%;
   max-width: 56rem;
-  margin: 9rem 0 -6.4rem 5.6rem;
+  margin: 9rem 0 -5rem 5.6rem;
   justify-self: flex-end;
+}
+
+.agile-img,
+.integrate-img {
+  background-color: #fff;
+}
+
+.agile-section {
+  grid-template-columns: 0.8fr 1fr;
+}
+
+.agile-section,
+.integrate-section {
+  padding-left: 0;
+}
+
+.integrate-section {
+  grid-template-columns: 1fr;
+}
+
+.integrate-img {
+  width: 100%;
+  max-width: 119rem;
+  padding: 3.2rem 0 0;
+}
+
+.integrate-heading,
+.integrate-subheading {
+  text-align: center;
+}
+
+.integrate-subheading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.integrate-txt {
+  width: 50%;
+  justify-self: center;
 }
