@@ -30,6 +30,10 @@ a:hover {
   font-weight: 600;
 }
 
+.nav-links li {
+  margin-bottom: 0;
+}
+
 .container,
 .explore-link:link,
 .learn-more:link,
