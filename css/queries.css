@@ -1,0 +1,332 @@
+@media (max-width: 62em) {
+  .inner-container {
+    max-width: 80rem;
+    margin: 12rem 2rem;
+  }
+
+  .section-img,
+  .hero-img {
+    width: 95%;
+    max-width: 38rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .subheading-1 {
+    width: 70%;
+  }
+
+  .hero-btn,
+  .subheading-1 {
+    margin-bottom: 4rem;
+  }
+
+  .hero-stat {
+    width: 90%;
+  }
+
+  .hero-stat p {
+    width: 54%;
+  }
+
+  .hero-logos {
+    width: 40%;
+  }
+
+  .faint-txt {
+    margin-bottom: 0;
+  }
+
+  .faint-txt,
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  .main-subheading {
+    width: 85%;
+  }
+
+  .main-inner {
+    margin: 0 2rem;
+    padding-left: 0;
+    gap: 10rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .learn-more:link {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.8rem;
+  }
+
+  .learn-more-icon {
+    width: 3.2rem;
+    height: auto;
+  }
+
+  .colored-section {
+    gap: 8rem;
+  }
+
+  .colored-section-img {
+    width: 80%;
+    max-width: 56rem;
+    margin: 8rem 0 -4rem 5.6rem;
+    justify-self: flex-end;
+  }
+
+  .integrate-section {
+    gap: 0;
+  }
+
+  .integrate-txt {
+    width: 60%;
+  }
+
+  .integrate-subheading {
+    width: 100%;
+  }
+
+  .integrate-img {
+    width: 100%;
+    max-width: 80rem;
+  }
+
+  .agile-img {
+    padding: 0 0 6.4rem;
+  }
+
+  .agile-section,
+  .cta-inner {
+    gap: 4rem;
+  }
+
+  .cta-img {
+    width: 60%;
+  }
+
+  .subheading-1.cta-subheading {
+    width: 90%;
+  }
+
+  .cta-stat-inner {
+    margin: 0 2rem;
+  }
+
+  .footer-inner {
+    margin: 6.4rem 2rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .mobile-menu {
+    justify-self: right;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links-list,
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .nav {
+    background-color: #050520fa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    gap: 8rem;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .mobile-menu-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .mobile-menu-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .inner-container {
+    width: 100%;
+  }
+
+  .main-container {
+    margin: 0 2rem;
+    gap: 8rem;
+  }
+
+  .main-inner {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .inner-container {
+    grid-template-columns: 1fr;
+    justify-content: start;
+    gap: 6rem;
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-container {
+    gap: 10rem;
+  }
+
+  .main-inner {
+    gap: 3.2rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  .subheading-1,
+  .hero-btn,
+  .hero-stat p,
+  .hero-stat,
+  .faint-txt,
+  .explore-link:link {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h1,
+  .faint-txt,
+  h2 {
+    margin-bottom: 1.6rem;
+  }
+
+  h2,
+  .faint-txt {
+    font-size: 2.4rem;
+  }
+
+  .subheading-1,
+  .hero-btn,
+  .hero-stat p {
+    margin-bottom: 3.2rem;
+  }
+
+  .hero-stat p {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .hero-stat {
+    flex-direction: column;
+  }
+
+  .section-img,
+  .hero-img {
+    width: 100%;
+    max-width: 60rem;
+    justify-self: center;
+  }
+
+  .save-img,
+  .mitigate-img,
+  .agile-img {
+    grid-row: 2;
+  }
+
+  .explore-link:link {
+    gap: 2rem;
+  }
+
+  .colored-section {
+    gap: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .colored-section-txt {
+    margin: 4rem;
+  }
+
+  .colored-section-img {
+    width: 55%;
+    margin: 0;
+    justify-self: center;
+  }
+
+  .integrate-section {
+    gap: 0;
+  }
+
+  .integrate-txt {
+    width: 100%;
+  }
+
+  .integrate-img {
+    margin-top: 0;
+  }
+
+  .agile-img {
+    width: 75%;
+  }
+
+  .cta-img {
+    width: 50%;
+  }
+
+  .cta-stat-inner,
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .cta-stat-inner p {
+    grid-column: 1/-1;
+    text-align: center;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .stat-logo-1 {
+    justify-self: end;
+    align-self: center;
+  }
+}
